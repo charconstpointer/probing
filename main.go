@@ -30,8 +30,8 @@ const (
 	// dynamically-linked library, so the path of the library will need
 	// to be specified instead, e.g. /usr/lib/libreadline.so.8.
 	// Use `ldd /bin/bash` to find these paths.
-	binPath = "/bin/bash"
-	symbol  = "readline"
+	binPath = "/home/mo/Documents/dev/probing/helloweb"
+	symbol  = "main.timeEllapsed"
 )
 
 func main() {
